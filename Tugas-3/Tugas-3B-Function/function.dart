@@ -1,22 +1,21 @@
 // Function Nomor 1
-teriak() {
+String teriak() {
   return "Halo Sanbers!";
 }
 
 // Function Nomor 2
-kalikan(a, b) {
+num kalikan(num a, num b) {
   return a * b;
 }
 
 // Function Nomor 3
-introduce(String name, int age, String address, String hobby) {
-  String text =
-      "Nama Saya $name, umur saya $age tahun, alamat saya di $address, dan saya punya hobby yaitu $hobby!";
+String introduce(String name, int age, String address, String hobby) {
+  String text = "Nama Saya $name, umur saya $age tahun, alamat saya di $address, dan saya punya hobby yaitu $hobby!";
   return text;
 }
 
 // Function Nomor 4
-factorial(int n) {
+dynamic factorial(int n) {
   if (n <= 0) {
     return 1;
   } else {
